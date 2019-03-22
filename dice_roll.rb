@@ -7,5 +7,7 @@
 # end
 
 def roll
-  return rand(1..6)
+  arr = [1, 2, 3, 4, 5, 6]
+  
+  return rand(arr)
 end
